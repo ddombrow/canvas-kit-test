@@ -10,7 +10,7 @@ function App() {
   return (
     <div className="App">
       <DrawingSurface>
-        <Circle />
+        <Circle cx={100} cy={100} r={50}/>
       </DrawingSurface>
     </div>
   );
